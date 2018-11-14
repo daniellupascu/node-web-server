@@ -34,6 +34,7 @@ hbs.registerHelper('screamIt', (text) => {
     return text.toUpperCase();
 });
 
+// defining routes
 app.get('/', (req, res) => { 
     res.render('home.hbs', {
         title: 'Home page',
