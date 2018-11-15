@@ -55,7 +55,6 @@ app.get('/projects', (req, res) => {
     });
 });
 
-
 app.get('*', (req, res) => {
     res.send('error 404 - page not found', 404);
 });
